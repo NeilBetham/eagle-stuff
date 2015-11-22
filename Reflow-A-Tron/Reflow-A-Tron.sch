@@ -492,7 +492,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-3.4" y1="-0.2" x2="-3.4" y2="-2.1" width="0.2032" layer="21"/>
 <wire x1="3.4" y1="-0.2" x2="3.4" y2="-2.1" width="0.2032" layer="21"/>
 <wire x1="-1.2" y1="-2.1" x2="1.2" y2="-2.1" width="0.2032" layer="21"/>
-<text x="-3.5" y="7" size="1.27" layer="26">&gt;NAME</text>
+<text x="-3.5" y="7" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.5" y="-6.5" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="0805">
@@ -599,7 +599,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 <symbols>
-<symbol name="VREG">
+<symbol name="L4941BDT-TR">
 <wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
 <wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
@@ -607,8 +607,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="IN" x="-12.7" y="2.54" length="middle"/>
 <pin name="OUT" x="12.7" y="2.54" length="middle" rot="R180"/>
 <pin name="GND" x="0" y="-10.16" length="middle" rot="R90"/>
-<text x="-7.62" y="5.588" size="1.27" layer="95">&gt;NAME</text>
-<text x="-7.62" y="-6.858" size="1.27" layer="96">&gt;VALUE</text>
+<text x="-7.62" y="5.588" size="1.27" layer="94">&gt;NAME</text>
+<text x="-7.62" y="-6.858" size="1.27" layer="94">&gt;VALUE</text>
 </symbol>
 <symbol name="CAP">
 <rectangle x1="-2.54" y1="-1.27" x2="2.54" y2="-0.508" layer="94"/>
@@ -687,13 +687,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MC7805" prefix="U">
-<description>5V @ 1A voltage regulator. Max input voltage 35V. Dropout voltage 2V @ 1A.</description>
+<deviceset name="L4941BDT-TR" prefix="U">
+<description>5V 1A Voltage Regulator. Input max voltage of 16V.
+Dropout voltage .25v @ 500mA</description>
 <gates>
-<gate name="G$1" symbol="VREG" x="0" y="0"/>
+<gate name="G$1" symbol="L4941BDT-TR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="DPAK">
+<device name="DPAK-3" package="DPAK">
 <connects>
 <connect gate="G$1" pin="GND" pad="2"/>
 <connect gate="G$1" pin="IN" pad="1"/>
@@ -7340,7 +7341,7 @@ www.irf.com&lt;p&gt;
 <part name="SUPPLY2" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="U2" library="neilbetham" deviceset="MC7805" device=""/>
+<part name="U2" library="neilbetham" deviceset="L4941BDT-TR" device="DPAK-3"/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="10UF50V20%(1210)" device="" value="10uF"/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="10UF50V20%(1210)" device="" value="10uF"/>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
