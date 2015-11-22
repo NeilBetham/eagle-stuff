@@ -586,7 +586,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-5" y1="5.8" x2="-5" y2="4.5" width="0.2032" layer="21"/>
 <wire x1="-5" y1="4.5" x2="5" y2="4.5" width="0.2032" layer="21"/>
 <wire x1="5" y1="4.5" x2="5" y2="5.8" width="0.2032" layer="21"/>
-<text x="-5" y="15.5" size="1.27" layer="26">&gt;NAME</text>
+<text x="-5" y="15.5" size="1.27" layer="25">&gt;NAME</text>
 <text x="-5" y="-4.5" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="8191">
