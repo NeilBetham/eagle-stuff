@@ -7365,7 +7365,7 @@ www.irf.com&lt;p&gt;
 <part name="POWER" library="SparkFun-Connectors" deviceset="M02" device="5MM"/>
 <part name="SUPPLY7" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="U1" library="neilbetham" deviceset="FT230X" device=""/>
+<part name="U1" library="neilbetham" deviceset="FT230X" device="" value="FT230X"/>
 <part name="J1" library="neilbetham" deviceset="XM7D-0512" device=""/>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C3" library="neilbetham" deviceset="SMD-CAP" device="-0805" value="100nF"/>

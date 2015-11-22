@@ -26774,7 +26774,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="THERMOCOUPLE" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-2" value="" x="86.36" y="3.81">
 <attribute name="PROD_ID" value="CONN-08399" x="86.36" y="3.81" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U1" library="neilbetham" package="SSOP-16" value="" x="64.77" y="27.94" rot="R270"/>
+<element name="U1" library="neilbetham" package="SSOP-16" value="FT230X" x="64.77" y="27.94" rot="R270"/>
 <element name="U2" library="neilbetham" package="DPAK" value="L4941BDT-TRDPAK-3" x="36.83" y="7.62" rot="R90"/>
 <element name="U4" library="SparkFun-AnalogIC" package="SOIC8" value="MAX6675" x="87.63" y="16.51">
 <attribute name="PROD_ID" value="IC-12512" x="87.63" y="16.51" size="1.778" layer="27" display="off"/>
