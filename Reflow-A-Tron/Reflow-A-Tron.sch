@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -7962,7 +7962,7 @@ www.irf.com&lt;p&gt;
 <wire x1="71.12" y1="-35.56" x2="58.42" y2="-35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="TXD" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PCINT24/RXD0_PD0"/>
 <wire x1="0" y1="40.64" x2="-22.86" y2="40.64" width="0.1524" layer="91"/>
@@ -7971,9 +7971,10 @@ www.irf.com&lt;p&gt;
 <pinref part="U1" gate="G$1" pin="TXD"/>
 <wire x1="71.12" y1="5.08" x2="71.12" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="-20.32" x2="58.42" y2="-20.32" width="0.1524" layer="91"/>
+<label x="63.5" y="-20.32" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$10" class="0">
+<net name="RXD" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PCINT25/TXD0_PD1"/>
 <wire x1="0" y1="38.1" x2="-20.32" y2="38.1" width="0.1524" layer="91"/>
@@ -7982,6 +7983,7 @@ www.irf.com&lt;p&gt;
 <pinref part="U1" gate="G$1" pin="RXD"/>
 <wire x1="58.42" y1="-22.86" x2="73.66" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="-22.86" x2="73.66" y2="7.62" width="0.1524" layer="91"/>
+<label x="63.5" y="-25.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TDI" class="0">
